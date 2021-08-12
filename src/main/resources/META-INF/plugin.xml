@@ -1,18 +1,20 @@
 <idea-plugin>
-  <id>lt.martynassateika.idea.codeigniter</id>
-  <name>CodeIgniter</name>
+  <id>com.intellij.php.codeigniter3</id>
+  <name>CodeIgniter 3</name>
   <version>0.6.0</version>
-  <vendor url="http://www.martynassateika.lt">Martynas Sateika</vendor>
+  <vendor>JetBrains</vendor>
 
   <description><![CDATA[
-      A PhpStorm plugin for CodeIgniter development.
+      A PhpStorm plugin for CodeIgniter 3 development.
+      Plugin is a fork of <a href="https://github.com/martynassateika/CodeIgniter-phpstorm-plugin">plugin</a> by <a href="url="http://www.martynassateika.lt">Martynas Sateika</a> 
+      and <a href="https://github.com/natanfelles/codeigniter-phpstorm">helpers</a> from <a href="https://natanfelles.github.io/">Natan Felles</a>.
     ]]></description>
 
   <change-notes><![CDATA[
       0.6 (2021-08-02):
       <ul>
-          <li>Built-in CodeIgniter helpers</li>
-          <li>Fixed: Compatibility issues with PhpStorm 2021.2 (thanks @MaXal!)</li>
+          <li>Built-in CodeIgniter helpers (thanks to @natanfelles)</li>
+          <li>Fixed: Compatibility issues with PhpStorm 2021.2</li>
       </ul>
   
       0.5.2 (2020-02-09):
